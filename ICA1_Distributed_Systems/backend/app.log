@@ -1,0 +1,217 @@
+2025-03-10 21:41:49,632 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.37:5000
+2025-03-10 21:41:49,632 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 21:42:36,025 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.37:5000
+2025-03-10 21:42:36,025 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 21:42:42,449 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.37:5000
+2025-03-10 21:42:42,452 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 21:43:19,842 - ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 46, in submit
+    conn = get_db_connection()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 20, in get_db_connection
+    conn = psycopg2.connect(DATABASE_URL)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "None" to address: No such host is known. 
+
+2025-03-10 21:43:19,881 - INFO: 127.0.0.1 - - [10/Mar/2025 21:43:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-10 21:43:20,093 - INFO: 127.0.0.1 - - [10/Mar/2025 21:43:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 21:43:25,540 - ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 46, in submit
+    conn = get_db_connection()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 20, in get_db_connection
+    conn = psycopg2.connect(DATABASE_URL)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "None" to address: No such host is known. 
+
+2025-03-10 21:43:25,540 - INFO: 127.0.0.1 - - [10/Mar/2025 21:43:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-10 21:44:40,187 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.37:5000
+2025-03-10 21:44:40,189 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 21:44:57,975 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.37:5000
+2025-03-10 21:44:57,975 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 21:45:12,399 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.37:5000
+2025-03-10 21:45:12,399 - INFO: [33mPress CTRL+C to quit[0m
+2025-03-10 21:47:59,357 - ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 46, in submit
+    conn = get_db_connection()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 20, in get_db_connection
+    conn = psycopg2.connect(DATABASE_URL)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "None" to address: No such host is known. 
+
+2025-03-10 21:47:59,361 - INFO: 192.168.4.37 - - [10/Mar/2025 21:47:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-10 21:47:59,831 - INFO: 192.168.4.37 - - [10/Mar/2025 21:47:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 21:48:07,953 - ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 46, in submit
+    conn = get_db_connection()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 20, in get_db_connection
+    conn = psycopg2.connect(DATABASE_URL)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "None" to address: No such host is known. 
+
+2025-03-10 21:48:07,953 - INFO: 192.168.4.37 - - [10/Mar/2025 21:48:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-10 21:48:16,056 - ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 46, in submit
+    conn = get_db_connection()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 20, in get_db_connection
+    conn = psycopg2.connect(DATABASE_URL)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "None" to address: No such host is known. 
+
+2025-03-10 21:48:16,060 - INFO: 127.0.0.1 - - [10/Mar/2025 21:48:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-10 21:48:16,284 - INFO: 127.0.0.1 - - [10/Mar/2025 21:48:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 21:48:49,994 - ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 46, in submit
+    conn = get_db_connection()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 20, in get_db_connection
+    conn = psycopg2.connect(DATABASE_URL)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "None" to address: No such host is known. 
+
+2025-03-10 21:48:49,997 - INFO: 192.168.4.37 - - [10/Mar/2025 21:48:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-10 21:48:50,273 - INFO: 192.168.4.37 - - [10/Mar/2025 21:48:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-10 21:49:36,743 - ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 46, in submit
+    conn = get_db_connection()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\OneDrive\Desktop\ICA1_Distributed_Systems\backend\app.py", line 20, in get_db_connection
+    conn = psycopg2.connect(DATABASE_URL)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srava\AppData\Local\Programs\Python\Python312\Lib\site-packages\psycopg2\__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "None" to address: No such host is known. 
+
+2025-03-10 21:49:36,745 - INFO: 127.0.0.1 - - [10/Mar/2025 21:49:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-03-10 21:49:37,177 - INFO: 127.0.0.1 - - [10/Mar/2025 21:49:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
