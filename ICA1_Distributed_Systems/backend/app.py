@@ -4,10 +4,10 @@ import logging
 from flask import Flask, request, render_template
 
 # Configure logging
-logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s: %(message)s')
+#logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s: %(message)s')
 
 app = Flask(__name__)
-
+'''
 # Use environment variables to configure the database connection
 DATABASE_URL = (
     f"dbname='{os.getenv('DB_NAME')}' "
@@ -49,7 +49,7 @@ def submit():
     conn.execute("INSERT INTO test.users (username, email) VALUES (%s, %s)", (username, email))
     conn.commit()
     conn.close()
-    return "Submitted!"
+    return "Submitted!" '''
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
